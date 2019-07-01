@@ -1,18 +1,23 @@
 ### MeTPeak
 
-Version: 1.1
+Version: 1.2
 
-Date: 2016-2-2
+Date: 1st Jul 2019
 
 Author: Xiaodong Cui <xiaodong.cui@outlook.com>, Jia Meng <jia.meng@hotmail.com>
   
-  Maintainer: Xiaodong Cui <xiaodong.cui@outlook.com>
+  Maintainer: Tomislav Lokotar <tloki@github>
 
 The package is developed for the finding the location of m6A sites in MeRIP-seq data
 
 License: GPL-2
 
 Depends: Rsamtools, GenomicFeatures (>= 1.0.0), rtracklayer, BH, RcppArmadillo, Rcpp
+
+Debian/Ubuntu/Mint and derivates dependencies:
+
+libcurl4-openssl-dev
+(placeholder for other package)
 
 
 ### Installation
@@ -27,7 +32,7 @@ At last, `MeTPeak` can be installed as:
 ```
 library("devtools")
 source("https://bioconductor.org/biocLite.R")
-install_github("compgenomics/MeTPeak",build_opts = c("--no-resave-data", "--no-manual"))
+install_github("tloki/MeTPeak",build_opts = c("--no-resave-data", "--no-manual"))
 ```
 
 ### Toy Example
