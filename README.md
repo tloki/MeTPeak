@@ -16,9 +16,10 @@ Depends: Rsamtools, GenomicFeatures (>= 1.0.0), rtracklayer, BH, RcppArmadillo, 
 
 Debian/Ubuntu/Mint and derivates dependencies:
 
+```
 libcurl4-openssl-dev
-(placeholder for other package)
-
+libssl-dev
+```
 
 ### Installation
 
