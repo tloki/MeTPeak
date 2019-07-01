@@ -1,6 +1,6 @@
-### MeTPeak
+### MeTPeak - fixed version
 
-Version: 1.2
+Version: 1.2 (for those having problems installing original version)
 
 Date: 1st Jul 2019
 
